@@ -43,8 +43,8 @@ class DateArgument(Argument):
               ) -> Tuple[str, Optional[datetime]]:
         parser_settings = {
             "PREFER_DATES_FROM": "future",
-            "TIMEZONE": "UTC",
-            "TO_TIMEZONE": "UTC",
+            "TIMEZONE": "EUROPE/BERLIN",
+            "TO_TIMEZONE": "EUROPE/BERLIN",
             "RETURN_AS_TIMEZONE_AWARE": True,
         }
 
